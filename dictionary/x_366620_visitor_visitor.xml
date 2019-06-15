@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Visitor" max_length="40" name="x_366620_visitor_visitor" sizeclass="1" type="collection">
+        <element default="enter email" label="email" max_length="15" name="email" type="string"/>
+        <element default="enter name" label="name" max_length="20" name="name" type="string"/>
+        <element default="for contact" label="phone" max_length="10" name="phone" type="string"/>
+        <element label="address" max_length="32" name="u_address" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="New Date/Time" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
+        <element label="in time" max_length="40" name="u_glide_time_2" type="glide_time"/>
+        <element label="out time" max_length="40" name="u_glide_time_3" type="glide_time"/>
+        <element attributes="edge_encryption_enabled=true" label="in date" max_length="40" name="u_in_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="out date" max_length="40" name="u_out_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="purpose of visit" max_length="40" name="u_string_6" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="whom to meet" max_length="40" name="u_string_7" type="string"/>
+    </element>
+</database>
